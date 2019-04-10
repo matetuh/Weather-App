@@ -1,6 +1,6 @@
 
 * {
-    background: #18dcff;
+    background: #4b4b4b;
 	box-sizing: border-box;
 	margin: 0 auto;
 	padding: 0;
@@ -10,7 +10,7 @@ html, body {
 	width: 100vh;
 }
 body {
-	color: #fff;
+	color: #fff200;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	position: flex;
@@ -19,7 +19,7 @@ body {
 	text-align: center;
 }
 footer {
-	color: rgba(255, 255, 255, 0.6);
+	color: #fff200;
 	font-size: 0.8rem;
 	letter-spacing: 0.07em;
 	line-height: 2;
@@ -29,8 +29,8 @@ footer {
 #actual {
     padding: 10% 5% 5%;
     width: 500px;
-    height: 300px;
-    margin: 25vh auto;
+    height: 400px;
+    margin: 5vh auto;
     border-radius: 25px;
     box-shadow: 0 10px 10px 0px #3d3d3d;
 	position: flex;
@@ -47,7 +47,7 @@ footer {
 }
 #actual .weatherIcon {
 	height: 100px;
-	margin: 10% auto 7%;
+	margin: 0% auto;
 	width: 100px;
 	font-size: 40px;
 }
@@ -58,4 +58,43 @@ footer {
 #actual .weather {
 	font-size: 1.2em;
 	text-transform: uppercase;
+}
+#SearchBar {
+	color: #fff200;
+	font-family: 'Roboto', sans-serif;
+	margin: 10% auto;
+    font-size: 15px;
+    padding: 8px;
+	border: 1px solid #fff200;
+	box-shadow: 0 10px 10px 0px #3d3d3d;
+    outline: none;
+    width: 260px;
+    text-align: left;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px: -moz-border-radius-bottomleft: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+}
+
+#SearchButton {
+	color: #3d3d3d;
+    font-size: 15px;
+	border: 1px solid #fff200;
+	font-family: 'Roboto', sans-serif;
+    padding: 8px;
+	background: #fff200;
+	box-shadow: 5px 10px 10px 0px #3d3d3d;
+    cursor: pointer;
+    outline: none;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px: -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#SearchButton:hover {
+    background: #fffa95;
 }

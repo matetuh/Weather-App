@@ -8,8 +8,16 @@
         <link rel="stylesheet" type="text/css" href="css/weather-icons.css">
         <link rel="stylesheet" type="text/css" href="css/weather-icons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="/src/SBar.js"></script>
     </head>
     <body>
+        <center>
+            <form id="form">
+                <input type="text" id="SearchBar" placeholder="Szukaj miasta..." value="" maxlength="20" autocomplete="on"
+                onMouseDown="active();"><input type="submit" id="SearchButton" value="Szukaj" />
+            </form>
+        </center>
         <div id="actual">
             <h1 class="loc">Wrocław, PL</h1>
             <h2 class="date">Poniedziałek, 1 Styczeń 2019</h2>
@@ -23,4 +31,5 @@
             <p>WeatherApp by MK & SP</p>
         </footer>
     </body>
+    <script src="/bundle.js"></script>
 </html>
